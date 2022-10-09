@@ -4,4 +4,4 @@ The System admin team of xFusionCorp Industries has installed a backup agent too
 
 
 
-Therefore, create a user named rose with a non-interactive shell on the App Server 3
+Therefore, create a user named rose with a non-interactive shell on the App Server 3.
