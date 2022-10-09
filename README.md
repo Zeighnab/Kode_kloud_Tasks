@@ -1,7 +1,7 @@
 # Kode_kloud_Tasks
 
-# A repo containing solutions to the tasks assigned from Kode-Kloud Engineering
+A repo containing solutions to the tasks assigned from Kode-Kloud Engineering
 
-# Project Architecture
+Project Architecture
 
-xfusion.PNG
+![](./xfusion.PNG)
