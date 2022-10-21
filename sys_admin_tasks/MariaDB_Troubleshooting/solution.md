@@ -2,8 +2,10 @@
 
 1. SSH into the database server
 
-    `ssh peter@stdb01`
-    `sudo -i`
+    ```
+    ssh peter@stdb01
+    sudo -i
+    ```
 
 2. Start mariadb service
 
@@ -46,8 +48,10 @@
 
 4. Start and Enable mariadb service
 
-    `systemctl start mariadb`
-    `systemctl enable mariadb`
+    ```
+    systemctl start mariadb
+    systemctl enable mariadb
+    ```
 
 5. Check mariadb status
 
