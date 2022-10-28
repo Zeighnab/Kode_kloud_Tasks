@@ -16,7 +16,7 @@ systemctl status postfix -l
 
 4. If it gives failed error, cat the `main.cf` file
 ```
-cat /etc/postfix/main.cf |grep inet_interface
+cat /etc/postfix/main.cf | grep inet_interface
 ```
 
 5. Edit the file, and comment out `inet_interface=localhost`
@@ -29,7 +29,7 @@ vi /etc/postfix/main.cf
 systemctl restart postfix
 ```
 
-# Postfix Configuration after installation
+## Postfix Configuration after installation
 
 myhostname = smtp.example.local
 
