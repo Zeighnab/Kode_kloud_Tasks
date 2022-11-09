@@ -10,6 +10,7 @@ vi /etc/ssh/sshd_config
 ```
 
 3. Change the `PermitRootLogin` to no
+
 ![](./img/Screenshot%202022-11-09%20at%2007.23.22.png)
 
 4. Restart sshd service
