@@ -11,7 +11,7 @@ ls -lh /home/usersdata
 
 3. Find the file name by user `ammar` & copy with folder structure
 ```
-find /home/usersdata/ -type f -user ammar -exec cp --parents {} /ecommerce \;
+find /home/usersdata/ -type f -user ammar -exec cp --parents {} /blog \;
 ```
 
 4. List the copied files in the destination folder
