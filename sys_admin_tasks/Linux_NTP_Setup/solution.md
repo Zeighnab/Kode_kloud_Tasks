@@ -14,7 +14,7 @@ yum install update -y @@ yum install -y ntp
 vi /etc/ntp.conf
 ```
 
-server 0.africa.pool.ntp.org iburst
-server 1.africa.pool.ntp.org iburst
-server 2.africa.pool.ntp.org iburst
-server 3.africa.pool.ntp.org iburst
+* server 0.africa.pool.ntp.org iburst
+* server 1.africa.pool.ntp.org iburst
+* server 2.africa.pool.ntp.org iburst
+* server 3.africa.pool.ntp.org iburst
