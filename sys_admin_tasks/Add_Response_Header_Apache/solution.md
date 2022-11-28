@@ -30,6 +30,6 @@ vi /etc/httpd/conf/httpd.conf
 
 ![](./img/6.png)
 
-Validate task by Curl
+6. Validate task by Curl
 
 ![](./img/7.png)
