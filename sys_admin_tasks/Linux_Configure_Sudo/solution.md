@@ -25,4 +25,4 @@ visudo
 
 ![](./img/4.png)
 
-4. Repeat this steps for other app servers
+4. Repeat these steps for other app servers
