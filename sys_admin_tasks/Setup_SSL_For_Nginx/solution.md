@@ -1,4 +1,8 @@
 1. SSH into app server 3
+```
+ssh banner@stapp03
+sudo su -
+```
 
 2. Install epel repo and Nginx package
 ```
