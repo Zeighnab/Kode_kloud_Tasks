@@ -19,8 +19,8 @@ cp /tmp/nautilus.key /etc/pki/CA/private/
 4. Edit the Nginx conf file;
    * Add the `Server-Private-IP-Address`
    * Add the path to the ssl certificate `/etc/pki/CA/certs/nautilus.crt` and ssl key `/etc/pki/CA/private/`
-   
-![](./img/1.png)
+
+![](./img/2.png)
 
 5. In the Nginx document root, remove the `index.html` symbolic link
 ```
@@ -38,8 +38,6 @@ vi /usr/share/nginx/html/index.html
 systemctl start nginx
 systemctl status nginx
 ```
-
-![](./img/2.png)
 
 7. Validate connection using curl
 ```
