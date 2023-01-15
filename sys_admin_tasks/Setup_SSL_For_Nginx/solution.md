@@ -38,7 +38,7 @@ systemctl start nginx
 systemctl status nginx
 ```
 
-![](./img/2.png)
+![](./img/3.png)
 
 7. Validate connection using curl
 ```
