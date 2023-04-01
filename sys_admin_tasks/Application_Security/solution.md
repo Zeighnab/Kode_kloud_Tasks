@@ -14,6 +14,7 @@ ss -tlnp | grep nginx
 ![](./img/2.png)
 
 4. Start the iptables service
+
 ![](./img/3.png)
 
 5. As per task, open the nginx port and block apache's to incoming connections
@@ -28,19 +29,15 @@ iptables -L --line-numbers
 ```
 ![](./img/4.png)
 
-* 
 ```
 iptables -R INPUT 5 -p icmp -j REJECT
 ```
 
-* 
 ```
 service iptables save
 ```
-
 ![](./img/5.png)
 
-* 
 ```
 iptables -L --line-numbers
 ```
