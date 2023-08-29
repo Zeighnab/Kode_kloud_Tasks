@@ -20,6 +20,7 @@ sudo systemctl start jenkins
 ```
 
 4. Click on the jenkins button to access its UI, then create a user
+
 ![](./img/1.png)
 
 ![](./img/2.png)
@@ -27,3 +28,4 @@ sudo systemctl start jenkins
 ![](./img/3.png)
 
 ![](./img/4.png)
+
