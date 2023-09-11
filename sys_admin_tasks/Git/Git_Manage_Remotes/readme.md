@@ -9,4 +9,4 @@ he DevOps team added some new Git remotes, so we need to update remote on `/usr/
 * There is a file `/tmp/index.html` on same server; copy this file to the repo and `add/commit` to `master` branch.
 
 
-c. Finally push `master` branch to this new remote origin.
+* Finally push `master` branch to this new remote origin.
