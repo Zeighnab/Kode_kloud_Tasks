@@ -1,0 +1,23 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: volume-share-nautilus
+  labels:
+    name: my-app
+spec: 
+  volumes:
+  - name: volume-share
+    emptyDir: {}
+  containers:
+  - name: volume-container-nautilus-1
+    image: ubuntu:latest
+    command: ["/bin/bash", "-c", "sleep 10000"]
+    volumeMounts:
+    - name: volume-share
+      mountPath: /tmp/news
+  - name: volume-container-nautilus-2
+    image: ubuntu:latest
+    command: ["/bin/bash", "-c", "sleep 10000"]
+    volumeMounts:
+    - name: volume-share
+      mountPath: /tmp/demo
