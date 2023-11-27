@@ -56,7 +56,7 @@ POD=$(kubectl get pods -o=jsonpath='{.items[*].metadata.name}'); echo "POD: $POD
 k logs -f $POD -c $HTTP 
 ```
 
-* * The logs will show incorrect variable. To rectify this, modify the PHP file inside the HTTPD container, not the deployment file.
+ * The logs will show incorrect variable. To rectify this, modify the PHP file inside the HTTPD container, not the deployment file.
 
 ```
 k exec -it $POD -c $HTTP -- sh

@@ -12,14 +12,14 @@ From the application logs it has been identified that:
 
 * Additionally, there are some environment variables associated with the pods like:
 
-* * MYSQL_ROOT_PASSWORD
+ * MYSQL_ROOT_PASSWORD
 
-* * MYSQL_DATABASE 
+ * MYSQL_DATABASE 
 
-* * MYSQL_USER 
+ * MYSQL_USER 
 
-* * MYSQL_PASSWORD 
+ * MYSQL_PASSWORD 
 
-* * MYSQL_HOST.
+ * MYSQL_HOST.
 
 Also do not try to delete/modify any other existing components like deployment name, service name, types, labels etc.
