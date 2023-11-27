@@ -23,7 +23,7 @@ kubectl exec -it {pod-name} -c httpd-php-container -- mysql
 
 ![](./img/4.png)
 
-* NOTE: The nodeport might differ from the given one, and the port and targetPort might be 8080. Change this to 80 by retrieving the YAML file and modify it.
+* __NOTE__: The nodeport might differ from the given one, and the port and targetPort might be 8080. Change this to 80 by retrieving the YAML file and modify it.
 ```
 k get svc lamp-service -o yaml > lamp-svc.yml
 
@@ -56,7 +56,7 @@ POD=$(kubectl get pods -o=jsonpath='{.items[*].metadata.name}'); echo "POD: $POD
 k logs -f $POD -c $HTTP 
 ```
 
- * The logs will show incorrect variable. To rectify this, modify the PHP file inside the HTTPD container, not the deployment file.
+* The logs will show incorrect variable. To rectify this, modify the PHP file inside the HTTPD container, not the deployment file.
 
 ```
 k exec -it $POD -c $HTTP -- sh

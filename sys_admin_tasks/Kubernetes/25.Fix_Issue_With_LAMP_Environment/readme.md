@@ -22,4 +22,4 @@ From the application logs it has been identified that:
 
     * MYSQL_HOST
 
-Also do not try to delete/modify any other existing components like deployment name, service name, types, labels etc.
+__Also do not try to delete/modify any other existing components like deployment name, service name, types, labels etc__.
