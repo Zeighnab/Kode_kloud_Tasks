@@ -20,6 +20,6 @@ From the application logs it has been identified that:
 
  * MYSQL_PASSWORD 
 
- * MYSQL_HOST.
+ * MYSQL_HOST
 
 Also do not try to delete/modify any other existing components like deployment name, service name, types, labels etc.
