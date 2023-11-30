@@ -1,0 +1,44 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ic-deploy-devops
+  labels:
+    app: ic-devops
+spec:
+  volumes:
+    - name: ic-volume-devops
+      emptyDir: {} 
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ic-devops
+  template:
+    metadata:
+      labels:
+        app: ic-devops
+    spec:
+      initContainers:
+        - name: ic-msg-devops
+          image: debian:latest
+          command:
+            [
+              "/bin/bash",
+              "-c",
+              "echo Init Done - Welcome to devopsCorp Industries > /ic/news",
+            ]
+          volumeMounts:
+            - name: ic-volume-devops
+              mountPath: /ic
+      containers:
+        - name: ic-main-devops
+          image: debian:latest
+          command:
+            [
+              "/bin/bash",
+              "-c",
+              "while true; do cat /ic/news; sleep 5; done",
+            ]
+          volumeMounts:
+            - name: ic-volume-devops
+              mountPath: /ic
+      
