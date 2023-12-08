@@ -1,4 +1,4 @@
-1. Verify the secret.
+1. Verify the secret. 
 ```
 ls -la /opt
 
