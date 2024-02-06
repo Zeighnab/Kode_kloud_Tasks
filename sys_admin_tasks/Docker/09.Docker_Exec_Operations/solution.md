@@ -10,8 +10,6 @@ docker ps -a
 docker exec -it kkloud /bin/bash
 ```
 
-
-
 4. Inside the container, install the necessary packages and configure the required settings based on the instructions.
 ```
 apt install apache2 -y
