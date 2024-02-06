@@ -16,8 +16,8 @@ docker exec -it kkloud /bin/bash
 ```
 apt install apache2 -y
 cd  /etc/apache2
-sed -i 's/Listen 80/Listen 3003/g' ports.conf
-sed -i 's/:80/:3003/g' apache2.conf
+sed -i 's/Listen 80/Listen 3004/g' ports.conf
+sed -i 's/:80/:3004/g' apache2.conf
 sed -i 's/#ServerName www.example.com/ServerName localhost/g' apache2.conf
 ```
 
